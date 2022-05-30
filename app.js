@@ -34,7 +34,7 @@ var createNewTaskElement = function(taskString){
     //Each elements, needs appending
     checkBox.className = 'item__checkbox';
     checkBox.type = 'checkbox';
-    checkBox.id = `task-${taskCount}`;
+    checkBox.id = `task-${taskCount + 1}`;
 
     taskCount++;
 
