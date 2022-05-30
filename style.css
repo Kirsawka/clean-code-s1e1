@@ -72,8 +72,8 @@ body {
 }
 
 /* Heading */
-.section__subtitle,
-.add-section__label {
+.add-section__subtitle,
+.section__subtitle {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +103,7 @@ body {
 }
 
 /* New Task */
-.add-section__label {
+.add-section__subtitle {
   display: block;
   margin: 0 0 20px;
 }
